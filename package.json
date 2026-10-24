@@ -1,0 +1,6 @@
+{
+  "name": "stock-lab", "version": "1.0.0", "private": true, "type": "module",
+  "description": "300개 가상 기업으로 배우는 브라우저 모의투자",
+  "scripts": {"dev": "node scripts/serve.mjs", "start": "node scripts/serve.mjs", "test": "node --test --test-timeout=15000 tests/*.test.mjs", "build": "node scripts/build.mjs"},
+  "engines": {"node": ">=22"}
+}

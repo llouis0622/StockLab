@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101112">
+  <meta name="description" content="가상 기업 300개, 가상 자금 1,000만 원. 주문과 차트, 투자 기록을 통해 배우는 Stock Lab 모의투자.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <title>Stock Lab — 나만의 투자 실험실</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles/app.css">
+  <link rel="stylesheet" href="./styles/responsive.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+  <div id="app"><div class="boot"><span class="boot-mark">SL</span><h1>STOCK LAB</h1><p>투자 실험실을 준비하고 있습니다.</p><p class="boot-help">화면이 열리지 않으면 README의 로컬 실행 방법을 확인해주세요.<br>파일 더블클릭 대신 GitHub Pages 또는 로컬 서버로 접속합니다.</p></div></div>
+  <dialog id="modal" aria-labelledby="modal-title"></dialog>
+  <div id="toasts" role="status" aria-live="polite"></div>
+  <noscript>Stock Lab을 사용하려면 브라우저에서 JavaScript를 허용해주세요.</noscript>
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>
